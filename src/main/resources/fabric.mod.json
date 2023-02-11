@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "emptyasair",
+  "version": "${version}",
+  "name": "EmptyAsAir",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/emptyasair/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "emptyasair.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "minecraft": "1.19.2"
+  }
+}
